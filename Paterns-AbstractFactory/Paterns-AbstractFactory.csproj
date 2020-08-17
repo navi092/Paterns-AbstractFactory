@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fabric\IChair.cs" />
+    <Compile Include="Fabric\ISofa.cs" />
+    <Compile Include="Fabric\ITable.cs" />
+    <Compile Include="Fabric\ModernChair.cs" />
+    <Compile Include="Fabric\ModernSofa.cs" />
+    <Compile Include="Fabric\VictoryanSofa.cs" />
+    <Compile Include="Fabric\VictoryanTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fabric\VictoryanChar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
