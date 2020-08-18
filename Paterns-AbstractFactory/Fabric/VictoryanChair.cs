@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Paterns_AbstractFactory
 {
-    class VictoryanChar : IChair
+    class VictoryanChair : IChair
     {
         private int _legs;
         private bool _sit;
-        public VictoryanChar(int legs, bool sit)
+
+        public VictoryanChair(int legs, bool sit)
         {
             _legs = legs;
             _sit = sit;

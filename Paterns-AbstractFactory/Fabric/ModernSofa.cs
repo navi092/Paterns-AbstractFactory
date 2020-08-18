@@ -10,6 +10,7 @@ namespace Paterns_AbstractFactory.Fabric
     {
         private int _legs;
         private string _model;
+
         public ModernSofa(int legs, string model)
         {
             _legs = legs;

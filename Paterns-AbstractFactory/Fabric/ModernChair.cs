@@ -10,6 +10,7 @@ namespace Paterns_AbstractFactory.Fabric
     {
         private int _legs;
         private bool _sit;
+
         public ModernChair(int legs, bool sit)
         {
             _legs = legs;

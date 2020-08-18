@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Paterns_AbstractFactory.Fabric
 {
-    class VictoryanTable : ITable
+    class ModernTable : ITable
     {
-        private int _legs;
-        private string _owner;
+        int _legs;
+        string _owner;
 
-        public VictoryanTable(int legs, string owner)
+        public ModernTable(int legs, string owner)
         {
             _legs = legs;
             _owner = owner;
