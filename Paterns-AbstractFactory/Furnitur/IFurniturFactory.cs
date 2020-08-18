@@ -11,6 +11,6 @@ namespace Paterns_AbstractFactory.Furnitur
     {
         IChair CreateChair();
         ITable CreateCoffeeTable();
-        ISofa CreateSofaTable();
+        ISofa CreateSofa();
     }
 }

@@ -30,7 +30,7 @@ namespace Paterns_AbstractFactory.Furnitur
             return _table;
         }
 
-        public ISofa CreateSofaTable()
+        public ISofa CreateSofa()
         {
             return _sofa;
         }
